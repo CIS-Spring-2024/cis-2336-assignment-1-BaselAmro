@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #111; /* Vivid black background */
+    color: #ffffff; /* White text color */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: #ac0000; /* Vivid black background */
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    color: hsl(13, 100%, 33%) 3px solid; /* Dark red color for highlights */
+}
+
+.highlight {
+    color: hsl(13, 100%, 33%) 3px solid; /* Dark red color for highlights */
+}
+
+nav ul {
+    list-style: none;
+    background-color: hsl(13, 100%, 33%) 3px solid; /* Dark red background for nav */
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff; /* White text for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a.current {
+    color: #111; /* Vivid black text for current */
+    background-color: #fff; /* White background for current */
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+#gallery {
+    margin: 20px 0;
+    text-align: center;
+}
+
+#gallery .gallery-row {
+    margin-bottom: 20px;
+}
+
+#gallery img {
+    width: 30%;
+    margin-right: 2%;
+    margin-bottom: 20px;
+}
+
+#gallery img:last-child {
+    margin-right: 0;
+}
+
+footer {
+    background-color: #111; /* Vivid black background */
+    color: #ffffff; /* White text */
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 1rem;
+}
+.welcome-message {
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    border: 2px solid #e8491d; /* Red border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    margin-bottom: 30px; /* Space between the message and the images */
+    text-align: center;
+}
+
+.welcome-message h2 {
+    font-family: 'Georgia', serif; /* Custom font for the heading */
+    color: #e8491d; /* Red color for the heading */
+    margin-bottom: 15px; /* Space between the heading and the paragraph */
+}
+
+.welcome-message p {
+    font-family: 'Arial', sans-serif; /* Custom font for the paragraph */
+    color: #ffffff; /* White color for the text */
+    line-height: 1.6;
+}
+.additional-description {
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    border: 2px solid #e8491d; /* Red border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    margin: 30px auto; /* Space above and below the section */
+    text-align: center;
+    width: 80%; /* Match the width of the container */
+}
+
+.additional-description h2 {
+    font-family: 'Georgia', serif; /* Custom font for the heading */
+    color: #e8491d; /* Red color for the heading */
+    margin-bottom: 15px; /* Space between the heading and the paragraph */
+}
+
+.additional-description p {
+    font-family: 'Arial', sans-serif; /* Custom font for the paragraph */
+    color: #ffffff; /* White color for the text */
+    line-height: 1.6;
+}
+.newsletter {
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    border: 2px solid #e8491d; /* Red border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    margin: 30px auto; /* Space above and below the section */
+    text-align: center;
+    width: 80%; /* Match the width of the container */
+}
+
+.newsletter h2 {
+    font-family: 'Georgia', serif; /* Custom font for the heading */
+    color: #e8491d; /* Red color for the heading */
+    margin-bottom: 15px; /* Space between the heading and the paragraph */
+}
+
+.newsletter p {
+    font-family: 'Arial', sans-serif; /* Custom font for the paragraph */
+    color: #ffffff; /* White color for the text */
+    line-height: 1.6;
+    margin-bottom: 20px; /* Space between the paragraph and the form */
+}
+
+.newsletter form {
+    display: inline-block;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    border: 1px solid #e8491d; /* Red border for the input */
+    border-radius: 5px; /* Rounded corners for the input */
+    margin-right: 10px; /* Space between the input and the button */
+}
+
+.newsletter button {
+    background-color: #e8491d; /* Red background for the button */
+    color: #ffffff; /* White text for the button */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px; /* Rounded corners for the button */
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background-color: #c63d0f; /* Darker red for the button on hover */
+}
